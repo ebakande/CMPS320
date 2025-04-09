@@ -1,0 +1,37 @@
+body { background-color: #ececec; 
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header { grid-area: header;
+   color: #ffffff;
+   text-align: center;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h2 {
+    text-align: center;
+}
+image {
+    align-self: center;
+}
+nav {
+	margin: 0;
+	border-bottom: 5px solid #000000;
+	grid-area: nav;
+	background-color: #5c5c5c;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+  footer {
+	background-color: #5c5c5c;
+	padding: 20px;
+	text-align: center;
+	font-size: large;
+	font-style: normal;
+	grid-area: footer;
+	color: antiquewhite;
+    border-bottom: 5px solid #000000;
+}
